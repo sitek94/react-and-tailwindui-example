@@ -20,7 +20,7 @@ function App() {
         <SimpleHeader />
       </div>
 
-      <div className="py-4">
+      <div className="mt-16 py-4">
         <div className="text-center p-4 max-w-lg mx-auto">
           <H2>Users Example</H2>
           <UserList users={users} />

@@ -100,7 +100,7 @@ function classNames(...classes) {
 
 export default function Header() {
   return (
-    <Popover className="relative bg-white">
+    <Popover className="relative z-50 bg-white">
       {({ open }) => (
         <>
           <div className="mx-auto px-4 sm:px-6">

@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Example1 from './example-1';
 import './index.css';
+
+import UserList from './user-list';
+import users from './users.json';
 
 function App() {
   return (
@@ -9,11 +11,9 @@ function App() {
       <h1 className="text-4xl">React and Tailwind UI Example</h1>
       <Divider />
 
-      <H2>Example 1</H2>
-      <Example1 />
+      <H2>Users Example</H2>
+      <UserList users={users} />
       <Divider />
-
-      
     </div>
   );
 }
